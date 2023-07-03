@@ -9,10 +9,7 @@ En él podemos cambiar las interfaces de red y otros atributos.
 Para ejecutar el laboratorio de ataque:
 sudo python3 run.py -t attack
 
-Por defecto se generará una ataque con el archivo rockyou.txt el cual habrá que descargar y poner en la ubicación Labs\lab_attacks\attacker
-En nuestro caso, en dicha ubicación, está el archivo rockyoufinal.txt que es una versión reducida del rockyou.txt (que no se permite subir aquí por exceder el tamaño máximo)
-Si se desea utilizar ese archivo, hay que modificar el archivo run_task_hydra.py y poner el nombre del archivo rockyoufinal.txt donde pone rockyou.txt
-cmd = ["hydra", "-l", "root", "-P", "rockyou.txt", str(randomize_ip()), "ssh"]
+Por defecto se generará una ataque con el archivo rockyoufinal.txt que es una versión reducida del rockyou.txt (que no se permite subir aquí por exceder el tamaño máximo)
 
 Para ejecutar el laboratorio de generar tráfico normal:
 sudo python3 run.py -t normal
