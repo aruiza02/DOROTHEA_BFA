@@ -20,3 +20,7 @@ Si queremos limpiar todo el entorno del laboratorio, ejecutamos:
 sudo python3 run.py -c
 
 En caso de que queramos realizar pruebas de precisión del modelo se puede ejecutar el cuaderno de Jupyter MPLS Classifier Jupyter Notebook.ipynb ubicado en la carpeta cuadernos de Jupyter. Tener en cuenta que es necesario cambiar la ubicación de los archivos .csv de pruebas
+
+En la carpeta Labs se localizan los dos datsets principales utilizados para las pruebas de aprendizaje y resultados:
+   - csv_normalizado.csv
+   - dataset_text.csv
