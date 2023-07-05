@@ -23,4 +23,4 @@ En caso de que queramos realizar pruebas de precisión del modelo se puede ejecu
 
 En la carpeta Labs se localizan los dos datsets principales utilizados para las pruebas de aprendizaje y resultados:
    - csv_normalizado.csv
-   - dataset_text.csv
+   - dataset_text.csv (utilizado tras el entrenamiento con csv_normalizado.csv)
